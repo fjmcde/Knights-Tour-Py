@@ -71,8 +71,8 @@ class Tour():
 def main():
     NUMROWS = 8
     NUMCOLS = 8
-    STARTX = 8
-    STARTY = 8
+    STARTX = 0
+    STARTY = 0
 
     knight = Tour(NUMROWS, NUMCOLS, STARTX, STARTY)
     knight.solve(STARTX, STARTY)
