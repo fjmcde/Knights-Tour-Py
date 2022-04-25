@@ -4,8 +4,8 @@ from knightsTour import Tour
 ## Just provide:
 ## - The size of the board (Note: must be N x N);
 ## - A starting position for the knight (Note: rows and columns begin with 0
-##   so there are only N - 1 valid spaces; whereN = NUMROWS OR NUMCOLS);
-## - Instantiate a knight object by passing the size and starting position 
+##   so there are only N - 1 valid spaces; where N = NUMROWS OR NUMCOLS);
+## - Instantiate a Tour object by passing the size and starting position 
 ##   of the knight into the constructor
 ## - Call the solve() function
 def main():
